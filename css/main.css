@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme');
+
+html{
+    background-color:dimgrey;
+    background-image: url('../assets/img/back.png');
+    background-repeat: repeat;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+
+    position: fixed;
+    top: 50%;
+    margin-top: -100px;
+
+    text-align: center;
+
+    color: white;
+    font-family: 'BioRhyme', serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+header hr{
+    width: 15%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    text-align: center;
+}
+header .fa{
+    color: white;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0.7;
+    padding: 0 10px;
+}
+
+header .fa:hover{
+    opacity: 1;
+}
